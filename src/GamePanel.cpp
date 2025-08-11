@@ -43,7 +43,7 @@ void GamePanel::InitEntities() {
 
 void GamePanel::InitText() {
 
-    this->m_Font.openFromFile("res/Fonts/HydrogenWhiskey.otf");
+    this->m_Font.openFromFile("../res/Fonts/HydrogenWhiskey.otf");
 
     this->m_P1Score.setFont(this->m_Font);
     this->m_P1Score.setCharacterSize(64);

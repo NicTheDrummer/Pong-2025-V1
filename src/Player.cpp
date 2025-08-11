@@ -1,9 +1,4 @@
-//
-// Created by Nic on 2025-07-27.
-//
-
 #include "../headers/Player.h"
-
 
 Player::Player(){}
 
