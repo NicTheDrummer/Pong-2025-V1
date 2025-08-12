@@ -22,13 +22,11 @@ void Ball::Update(float deltaTime) {
 
     //Side Collision
     if (m_Ball.getPosition().x < 0) {
-        m_P1Score++;
-        ResetBall();
-
-    } else if (m_Ball.getPosition().x > m_WindowWidth - m_Ball.getSize().x) {
         m_P2Score++;
         ResetBall();
-
+    } else if (m_Ball.getPosition().x > m_WindowWidth - m_Ball.getSize().x) {
+        m_P1Score++;
+        ResetBall();
     }
 
     //Vertical Collision
